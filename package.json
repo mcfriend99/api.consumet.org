@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/consumet/consumet.ts#readme",
     "dependencies": {
-        "Mcfriends/consumet": "github:consumet/consumet.ts",
+        "@Mcfriends/consumet": "github:consumet/consumet.ts",
         "@fastify/cors": "^8.5.0",
         "@types/node": "^18.11.17",
         "@types/ws": "^8.5.3",
