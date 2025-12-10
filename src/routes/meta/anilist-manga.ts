@@ -1,6 +1,6 @@
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
-import { META } from '@consumet/extensions';
-import { PROVIDERS_LIST } from '@consumet/extensions';
+import { META } from 'mc_consumet';
+import { PROVIDERS_LIST } from 'mc_consumet';
 
 const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {
   let anilist = new META.Anilist.Manga();

@@ -1,5 +1,5 @@
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
-import { META, PROVIDERS_LIST, StreamingServers } from '@consumet/extensions';
+import { META, PROVIDERS_LIST, StreamingServers } from 'mc_consumet';
 import { tmdbApi } from '../../main';
 
 const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {

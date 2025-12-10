@@ -1,6 +1,6 @@
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
-import { ANIME } from '@consumet/extensions';
-import { StreamingServers, SubOrSub } from '@consumet/extensions/dist/models';
+import { ANIME } from 'mc_consumet';
+import { StreamingServers, SubOrSub } from 'mc_consumet/dist/models';
 
 import cache from '../../utils/cache';
 import { redis, REDIS_TTL } from '../../main';

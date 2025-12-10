@@ -1,4 +1,4 @@
-import { NEWS, Topics } from '@consumet/extensions';
+import { NEWS, Topics } from 'mc_consumet';
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
 
 const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {

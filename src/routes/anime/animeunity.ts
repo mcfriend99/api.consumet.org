@@ -1,5 +1,5 @@
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
-import { ANIME } from '@consumet/extensions';
+import { ANIME } from 'mc_consumet';
 
 import cache from '../../utils/cache';
 import { redis, REDIS_TTL } from '../../main';

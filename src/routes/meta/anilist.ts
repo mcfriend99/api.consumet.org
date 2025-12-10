@@ -1,13 +1,13 @@
 import { Redis } from 'ioredis';
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
-import { META } from '@consumet/extensions';
-import { Genres, SubOrSub } from '@consumet/extensions/dist/models';
-import Anilist from '@consumet/extensions/dist/providers/meta/anilist';
-import { StreamingServers } from '@consumet/extensions/dist/models';
+import { META } from 'mc_consumet';
+import { Genres, SubOrSub } from 'mc_consumet/dist/models';
+import Anilist from 'mc_consumet/dist/providers/meta/anilist';
+import { StreamingServers } from 'mc_consumet/dist/models';
 
 import cache from '../../utils/cache';
 import { redis } from '../../main';
-import Hianime from '@consumet/extensions/dist/providers/anime/hianime';
+import Hianime from 'mc_consumet/dist/providers/anime/hianime';
 import Providers from '../../utils/providers';
 
 const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {

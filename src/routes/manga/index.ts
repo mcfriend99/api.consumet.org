@@ -1,5 +1,5 @@
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
-import { PROVIDERS_LIST } from '@consumet/extensions';
+import { PROVIDERS_LIST } from 'mc_consumet';
 import mangapill from './mangapill';
 import managreader from './managreader';
 import mangadex from './mangadex';

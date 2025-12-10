@@ -1,5 +1,5 @@
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
-import { PROVIDERS_LIST } from '@consumet/extensions';
+import { PROVIDERS_LIST } from 'mc_consumet';
 
 import animeunity from './animeunity';
 import animepahe from './animepahe';

@@ -1,5 +1,5 @@
 import { FastifyRequest, FastifyReply, FastifyInstance, RegisterOptions } from 'fastify';
-import { META, PROVIDERS_LIST } from '@consumet/extensions';
+import { META, PROVIDERS_LIST } from 'mc_consumet';
 
 const routes = async (fastify: FastifyInstance, options: RegisterOptions) => {
   let mal = new META.Myanimelist();
